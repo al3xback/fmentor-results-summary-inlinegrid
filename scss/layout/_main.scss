@@ -1,0 +1,14 @@
+main,
+main > .container {
+	display: grid;
+}
+
+main > .container {
+	justify-items: center;
+}
+
+@media (min-width: 48em) {
+	main > .container {
+		align-items: center;
+	}
+}
