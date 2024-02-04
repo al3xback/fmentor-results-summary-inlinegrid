@@ -2,17 +2,20 @@
 @use '../abstracts/functions' as func;
 
 .card__result,
-.card__summary,
 .card__chart,
 .card__desc,
+.card__summary,
 .card__data-list,
-.card__data-item,
-.card__data-score {
+.card__data-item {
 	display: grid;
 }
 
-.card {
+.card,
+.card__data-score {
 	display: inline-grid;
+}
+
+.card {
 	width: 100%;
 	max-width: func.em(375);
 	background-color: var.$color-white;
