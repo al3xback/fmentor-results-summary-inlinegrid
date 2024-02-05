@@ -19,7 +19,7 @@
 	width: 100%;
 	max-width: func.em(375);
 	background-color: var.$color-white;
-	margin: 0 0 func.em(20);
+	margin: 0 0 func.em(18);
 	border-radius: 0 0 32px 32px;
 	box-shadow: 24px 40px 30px rgba(0, 0, 0, 0.04);
 	overflow: hidden;
@@ -136,7 +136,7 @@
 	.card {
 		grid-template-columns: 1fr 1fr;
 		max-width: func.em(736, 18);
-		margin: func.em(40, 18) 0 func.em(20, 18);
+		margin: func.em(30, 18) 0 func.em(18, 18);
 		border-radius: 32px;
 	}
 
